@@ -72,7 +72,7 @@ resource "aws_lambda_function" "func" {
 
   environment {
     variables = {
-      OUTPUT_BUCKET     = "${var.app_name}-output"
+      OUTPUT_BUCKET     = "${var.app_name}-output-1903"
       DEPLOYMENT_TARGET = var.env
     }
   }
